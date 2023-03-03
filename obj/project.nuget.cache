@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "j3eW9fBhsNHEporCnGU9rtT1EE6KzWtwvYlzqfC7qf/BsBrKeC+lYTMeksNYobFPYPC60jP3SNZLfYn2pI3sew==",
+  "dgSpecHash": "vgy9beVMzpgqDzrZcSEV5qw+cFAhJFTSuFoxYnmtnRSl5/yDiHJv6YLDYoRuoIMlu2pwWRoC1kIU43t7/o7LZg==",
   "success": true,
   "projectFilePath": "C:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DABADIER\\.nuget\\packages\\carter\\7.0.0\\carter.7.0.0.nupkg.sha512",
+    "C:\\Users\\DABADIER\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.3\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",

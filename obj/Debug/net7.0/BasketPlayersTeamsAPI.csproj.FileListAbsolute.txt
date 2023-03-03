@@ -40,3 +40,5 @@ C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger
 C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Factory\BasketPlayersTeamsAPI\obj\Debug\net7.0\BasketPlayersTeamsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Carter.dll
+C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\FluentValidation.dll

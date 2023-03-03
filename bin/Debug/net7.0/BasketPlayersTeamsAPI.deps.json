@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "BasketPlayersTeamsAPI/1.0.0": {
         "dependencies": {
+          "Carter": "7.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.3",
@@ -15,6 +16,26 @@
         },
         "runtime": {
           "BasketPlayersTeamsAPI.dll": {}
+        }
+      },
+      "Carter/7.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.0.1",
+          "Microsoft.Extensions.DependencyModel": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Carter.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.0.1": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -229,6 +250,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Carter/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gCsOUZlBOZJObF2T+2loz13H7/wvWRl92BQc15+IS2WnE2mdoQOY97tLzwZABI/Cxc4bVzoxBT858WoglOPhFw==",
+      "path": "carter/7.0.0",
+      "hashPath": "carter.7.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fcL5zF/glDwskUtpL0IfBupVWTChxOOvVs+dAA7Gme5NjIeJBiFKWq3eZV1O+AigucnBTr8SWG7wRRn+PgFnTw==",
+      "path": "fluentvalidation/11.0.1",
+      "hashPath": "fluentvalidation.11.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
