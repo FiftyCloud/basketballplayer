@@ -2,6 +2,7 @@ using Carter;
 using Models;
 using DbContexts;
 using Microsoft.EntityFrameworkCore;
+using Bogus;
 
 namespace Modules;
 
@@ -54,6 +55,17 @@ public class BasketballPlayerModule : CarterModule
             }
 
             return Results.NotFound();
+        });
+
+        basketballPlayers.MapGet("/FakeBasketBallPlayers", () =>
+        {
+            var players = new Faker<BasketballPlayer>()
+                .RuleFor(p => p.Name, f => f.Name.FullName())
+                .RuleFor(p => p.Age, f => f.Random.Int(18, 40))
+                .RuleFor(p => p.Height, f => f.Random.Float(1.5f, 2.2f))
+                .RuleFor(p => p.Weight, f => f.Random.Float(50f, 120f));
+
+            return players.Generate(10);
         });
 
     }

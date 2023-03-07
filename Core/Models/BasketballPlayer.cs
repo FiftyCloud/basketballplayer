@@ -6,5 +6,6 @@ public class BasketballPlayer
     public string? Name { get; set; }
     public int Age { get; set; }
     public string? Position { get; set; }
-    public int TeamId { get; set; }
+    public float Height {get; set;}
+    public float Weight {get;set;}
 }

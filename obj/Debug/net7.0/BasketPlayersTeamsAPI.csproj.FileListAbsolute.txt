@@ -42,3 +42,4 @@ C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger
 C:\Factory\BasketPlayersTeamsAPI\obj\Debug\net7.0\BasketPlayersTeamsAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Carter.dll
 C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\FluentValidation.dll
+C:\Factory\BasketPlayersTeamsAPI\bin\Debug\net7.0\Bogus.dll

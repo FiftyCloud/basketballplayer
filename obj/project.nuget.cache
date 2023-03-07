@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vgy9beVMzpgqDzrZcSEV5qw+cFAhJFTSuFoxYnmtnRSl5/yDiHJv6YLDYoRuoIMlu2pwWRoC1kIU43t7/o7LZg==",
+  "dgSpecHash": "8P01tavUVRy4yatXyqJ+TXe4UYNOibL7xqUdR0hpvdV204S2LYMNirV27VlSdkquFvyY7GFkd2U+1AlyF+2RwQ==",
   "success": true,
   "projectFilePath": "C:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DABADIER\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\carter\\7.0.0\\carter.7.0.0.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\DABADIER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
