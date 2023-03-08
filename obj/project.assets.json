@@ -520,6 +520,47 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Bogus": "34.0.2",
+          "Carter": "7.0.0",
+          "Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Presentation.dll": {}
+        }
       }
     }
   },
@@ -1492,15 +1533,33 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "Presentation/1.0.0": {
+      "type": "project",
+      "path": "../Presentation/Presentation.csproj",
+      "msbuildProject": "../Presentation/Presentation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Bogus >= 34.0.2",
       "Carter >= 7.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.3",
+      "Models >= 1.0.0",
+      "Presentation >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1511,11 +1570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
+      "projectUniqueName": "C:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
       "projectName": "BasketPlayersTeamsAPI",
-      "projectPath": "c:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
+      "projectPath": "C:\\Factory\\BasketPlayersTeamsAPI\\BasketPlayersTeamsAPI.csproj",
       "packagesPath": "C:\\Users\\DABADIER\\.nuget\\packages\\",
-      "outputPath": "c:\\Factory\\BasketPlayersTeamsAPI\\obj\\",
+      "outputPath": "C:\\Factory\\BasketPlayersTeamsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1536,7 +1595,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Factory\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Factory\\Infrastructure\\Infrastructure.csproj"
+            },
+            "C:\\Factory\\Models\\Models.csproj": {
+              "projectPath": "C:\\Factory\\Models\\Models.csproj"
+            },
+            "C:\\Factory\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Factory\\Presentation\\Presentation.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

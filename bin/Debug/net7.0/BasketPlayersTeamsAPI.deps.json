@@ -10,9 +10,12 @@
         "dependencies": {
           "Bogus": "34.0.2",
           "Carter": "7.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.3",
+          "Models": "1.0.0",
+          "Presentation": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -251,6 +254,32 @@
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
         }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      },
+      "Presentation/1.0.0": {
+        "dependencies": {
+          "Bogus": "34.0.2",
+          "Carter": "7.0.0",
+          "Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Presentation.dll": {}
+        }
       }
     }
   },
@@ -476,6 +505,21 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
