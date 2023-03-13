@@ -1,0 +1,15 @@
+C:\Factory\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Factory\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Factory\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Factory\Infrastructure\bin\Debug\net7.0\Models.dll
+C:\Factory\Infrastructure\bin\Debug\net7.0\Models.pdb
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Factory\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Factory\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Factory\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
